@@ -1,27 +1,22 @@
-/* index.css */
-
-/* Style for the container holding buttons */
 .one {
   display: flex;
   justify-content: center;
-  gap: 10px; /* Spacing between buttons */
-  margin-bottom: 20px; /* Space below the buttons container */
+  gap: 10px;
+  margin-bottom: 20px;
 }
 h1,
 h2 {
   text-align: center;
 }
 
-/* General button styling */
 .button {
-  width: 50px; /* Width of each button */
-  height: 50px; /* Height of each button, making it a square */
+  width: 50px;
+  height: 50px;
   display: inline-block;
   cursor: pointer;
-  border: 2px solid #000; /* Optional border to make buttons distinct */
+  border: 2px solid #000;
 }
 
-/* Individual button colors */
 #grey {
   background-color: grey;
 }
@@ -38,6 +33,6 @@ h2 {
   background-color: blue;
 }
 
-#black {
-  background-color: black;
+#yellow {
+  background-color: yellow;
 }
